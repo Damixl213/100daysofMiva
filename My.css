@@ -1,0 +1,142 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+body{
+  background-color: #f5e6d3;
+
+}
+.container{
+  background-color: aliceblue;
+  margin:  200px;
+  padding: 30px;
+  border-radius: 40px;
+}
+img{
+  width: 100%;
+  border-radius: 20px;
+  height: 500px;
+justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:10px;
+  margin-bottom: 20px;
+}
+#Int-1 h1{
+  font-size: 32px;
+  text-align: start;
+  font-family: serif;
+  font-weight: bold;
+  margin-bottom:12px ;
+  color: #5a3921;
+}
+#Int-1 p{
+font-family:  sans-serif;
+margin:none ;
+font-size: 16px;
+color: #666666;
+}
+#Int-1{
+  margin-bottom: 20px;
+}
+#stage-1{
+background: #f3e6f2;
+padding-top: 10px;
+padding-bottom: 30px;
+border-radius: 20px;
+padding-left: 20px;
+margin-bottom: 30px;
+}
+#stage-1 h4{
+  color:rgb(125, 75, 175);
+padding-right: 10px;
+font-size: 18px;
+font-weight:Bold;
+font-family:Serif;
+margin-bottom: 12px;
+}
+#stage-1 ul{
+  color: #333333;
+padding-left: 36px;
+
+}
+#stage-1 ul span{
+  color: #333333;
+  margin-right:5px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+#stage-2 h4{
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
+font-family: serif;
+color: #804a23;
+text-align: start;
+}
+
+#stage-2 ul{
+padding-left:28px;
+text-align: start;
+font-size: 12px;
+font-weight: normal;
+font-family:  Sans-serif;
+line-height:2.5;
+}
+#stage-2 ul span{
+padding-left:5px;
+}
+#stage-2{
+  margin-bottom: 30px;
+}
+#stage-3 h4{
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
+font-family: serif;
+color: #804a23;
+margin-bottom:30p ;
+}
+#stage-3 ol{
+  padding-left:28px;
+  text-align: start;
+  font-size: small;
+  font-weight: normal;
+  font-family:  Sans-serif;
+  line-height:1.8;
+  justify-content: baseline;
+}
+#stage-3 ol li b{
+ text-align:start;
+ justify-content: center;
+ padding-right:5px;
+}
+#stage-3 ol li{
+  padding-left: 12px;
+}
+#stage-3{
+  margin-bottom: 30px;
+  
+}
+.stage-4 h4{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif;
+  color: #804a23;
+  margin-bottom:30p ;
+}
+
+hr{
+  margin: 32px;
+}
+
+
+
+  @media (max-width: 320px) {
+  main{
+    max-width: 200px;
+  } 
+  }
